@@ -1,122 +1,58 @@
-# Gulayan App 🌿
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-This is a frontend template intended for practicing the concept of SPA + API integration.
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-## Tech Stack
+## About Laravel
 
-- **React 19** - UI library for building user interfaces
-- **Vite** - Fast build tool and development server
-- **React Router DOM** - Client-side routing
-- **Axios** - HTTP client for API requests
-- **Tailwind CSS** - Utility-first CSS framework
-- **React Icons** - Icon library
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-### Prerequisites
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-- Node.js (v16 or higher)
-- npm or yarn package manager
-- Basic knowledge of React and JavaScript
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-### Installation
+## Learning Laravel
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd gulayan-app-student-version
-   ```
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-3. **Start the development server**
-   ```bash
-   npm run dev
-   ```
+You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
 
-4. **Open your browser**
-   
-   Navigate to `http://localhost:5173` to view the application
+## Agentic Development
 
-### Available Scripts
+Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
+```bash
+composer require laravel/boost --dev
 
-## 📁 Project Structure
-
-```
-gulayan-app-student-version/
-├── public/              # Static assets
-├── src/
-│   ├── assets/         # Images, icons, etc.
-│   ├── layout/         # Layout components
-│   │   └── AuthenticatedUserLayout.jsx
-│   ├── pages/          # Page components
-│   │   ├── Dashboard.jsx
-│   │   ├── Login.jsx
-│   │   ├── Signup.jsx
-│   │   ├── Records.jsx
-│   │   ├── Settings.jsx
-│   │   └── NotFound.jsx
-│   ├── App.jsx         # Main app component with routes
-│   ├── main.jsx        # Application entry point
-│   └── index.css       # Global styles
-├── index.html
-├── package.json
-└── vite.config.js
+php artisan boost:install
 ```
 
-## 🚀 Implementation Tasks
+Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
 
-### Your Tasks as a Student:
+## Contributing
 
-1. **Set up Backend Connection**
-   - Configure Axios base URL
-   - Create API service modules
-   - Set up request/response interceptors
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-2. **Implement Authentication**
-   - Connect login form to backend API
-   - Connect signup form to backend API
-   - Handle token storage and management
-   - Implement protected routes
+## Code of Conduct
 
-3. **Implement CRUD Operations**
-   - Fetch records from the backend
-   - Create new records
-   - Update existing records
-   - Delete records
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-4. **Error Handling**
-   - Display user-friendly error messages
-   - Handle network errors
-   - Implement loading states
+## Security Vulnerabilities
 
-5. **Data Management**
-   - Manage application state
-   - Update UI based on API responses
-   - Implement data validation
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## 📚 Resources
+## License
 
-- [React Documentation](https://react.dev/)
-- [Axios Documentation](https://axios-http.com/)
-- [React Router Documentation](https://reactrouter.com/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/)
-- [Vite Documentation](https://vitejs.dev/)
-
-## 🤝 Contributing
-
-This is a student learning project. Feel free to experiment and improve upon the base code!
-
-## 📄 License
-
-This project is intended for educational purposes.
-
----
-
-**Note**: This is a frontend-only template. Backend API implementation is required to make the application fully functional.
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
